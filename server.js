@@ -8,6 +8,7 @@ const routeUsers = require('./routes/api/users');
 const routeAuth = require('./routes/api/auth');
 const config = require('config');
 
+
 const app = express();
 
 app.use(express.json());
